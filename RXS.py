@@ -1,4 +1,4 @@
-from Baloch import approval
+from baloch import approval
 import os,platform
 os.system('git pull --quiet 2>/dev/null')
 os.system("clear")
@@ -8,5 +8,5 @@ saqi=platform.architecture()[0]
 if saqi=="32bit":
     os.system("clear");exit("\033[91;1m 32Bit Device Not Supported")
 elif saqi=="64bit":
-    __import__("Baloch")
+    __import__("baloch")
 approval()
