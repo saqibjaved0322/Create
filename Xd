@@ -1,10 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/python
-import platform,os
-#####
-os.system("git pull")
-
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import SAQI_64
-elif bit == '32bit':
-    import SAQI_32
+#!/bin/bash
+clear
+echo -e "\033[1;96m[•] Starting SAQI's Israeli Number Generator...\033[0m"
+python3 israel.py
