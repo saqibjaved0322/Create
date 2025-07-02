@@ -1,4 +1,0 @@
-#!/bin/bash
-clear
-echo -e "\033[1;96m[•] Starting SAQI's Israeli Number Generator...\033[0m"
-python israel.py
